@@ -11,4 +11,7 @@ export default function routes(app) {
   app.get('/', (request, response) => {
     response.sendFile(resolve('dist', 'main.html'));
   });
+
+  // to post input values from new Item submission form.
+  app.post('/create', ItemsController.create);
 }

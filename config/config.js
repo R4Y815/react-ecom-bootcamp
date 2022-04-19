@@ -1,8 +1,8 @@
 module.exports = {
   development: {
-    username: '<YOUR_USER_NAME>',
+    username: 'raytor27',
     password: null,
-    database: 'react_ecom_development',
+    database: 'react_ecom_development_7ice5',
     host: '127.0.0.1',
     dialect: 'postgres',
   },
